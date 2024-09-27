@@ -1,0 +1,19 @@
+{
+  "name": "package-class-2",
+  "version": "1.0.0",
+  "description": "Class 2",
+  "main": "1.http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express-js",
+    "josuelandero13"
+  ],
+  "author": "josuelandero113",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.21.0"
+  }
+}

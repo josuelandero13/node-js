@@ -1,5 +1,5 @@
 {
-  "name": "course-node-js",
+  "name": "course-node",
   "version": "1.0.0",
   "description": "El curso de midu",
   "main": "index.js",
@@ -16,5 +16,11 @@
   "license": "ISC",
   "dependencies": {
     "picocolors": "1.1.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
   }
 }

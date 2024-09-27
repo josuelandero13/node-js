@@ -1,0 +1,15 @@
+### Request for pokemon ditto
+GET http://localhost:8080/pokemon/ditto
+
+
+### Request for create pokemon
+POST http://localhost:8080/pokemon
+Content-Type: application/json
+
+{
+  "name": "ditto",
+  "type": "normal",
+  "moves": [
+    "transform",
+  ],
+}
