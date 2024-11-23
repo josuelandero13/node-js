@@ -11,8 +11,7 @@ app.use(cors({
     const ACCEPTED_ORIGINS = [
       'http://localhost:8080',
       'http://localhost:1234',
-      'https://movies.com',
-      'https://midu.dev'
+      'https://movies.com'
     ]
 
     if (ACCEPTED_ORIGINS.includes(origin)) {
@@ -27,7 +26,7 @@ app.use(cors({
   }
 }))
 
-app.disable('x-powered-by') // deshabilitar el header X-Powered-By
+app.disable('x-powered-by')
 
 app.get('/movies', (req, res) => {
   const { genre } = req.query

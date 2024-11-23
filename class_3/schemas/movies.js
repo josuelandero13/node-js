@@ -37,11 +37,11 @@ const movieSchema = z.object({
   rate: z.number().min(0).max(10).default(5)
 })
 
-function validateMovie(object) {
+function validateMovie (object) {
   return movieSchema.safeParse(object)
 }
 
-function validateMovieUpdated(shape) {
+function validateMovieUpdated (shape) {
   return movieSchema.partial().safeParse(shape)
 }
 
